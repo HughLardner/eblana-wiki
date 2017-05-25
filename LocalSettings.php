@@ -51,14 +51,14 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "postgres";
-$wgDBserver = "ec2-23-23-234-118.compute-1.amazonaws.com";
-$wgDBname = "d6i7ufmetockvv";
-$wgDBuser = "pdughtjedrojxv";
-$wgDBpassword = "77485fb02c7ab92dd910bef0d9105556cd2c048943ed32c5a4f1b46cc17a3440";
+$wgDBserver = getenv('DATABASE_SERVER');
+$wgDBname = getenv('DATABASE_NAME');
+$wgDBuser = getenv('DATABASE_USER');
+$wgDBpassword = getenv('DATABASE_PASSWORD');
 
 # Postgres specific settings
 $wgDBport = "5432";
-$wgDBmwschema = "d6i7ufmetockvv";
+$wgDBmwschema = getenv('DATABASE_NAME');
 
 ## Shared memory settings
 $wgMainCacheType = CACHE_NONE;
