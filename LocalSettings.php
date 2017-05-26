@@ -139,7 +139,7 @@ $wgSMTP = array(
 'host' => 'tls://smtp.sendgrid.net',
 'IDHost' => 'heroku.com',
 'port' => 465,
-'username' => getenv('EMAIL_USER'),
-'password' => getenv('EMAIL_PASSWORD')
+'username' => 'apikey',
+'password' => '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'
 );
 
