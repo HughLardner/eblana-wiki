@@ -144,3 +144,4 @@ $wgSMTP = array(
 'password' => getenv('EMAIL_PASSWORD')
 );
 
+
