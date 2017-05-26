@@ -135,11 +135,4 @@ wfLoadSkin( 'Vector' );
 # End of automatically generated settings.
 # Add more configuration options below.
 
-$wgSMTP = array(
-'host' => 'tls://smtp.sendgrid.net',
-'IDHost' => 'heroku.com',
-'port' => 465,
-'username' => 'apikey',
-'password' => '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'
-);
 
