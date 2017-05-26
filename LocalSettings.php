@@ -39,7 +39,7 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 
 ## UPO means: this is also a user preference option
 
-$wgEnableEmail = true;
+$wgEnableEmail = false;
 $wgEnableUserEmail = true; # UPO
 
 $wgEmergencyContact = "apache@eblana-wiki.herokuapp.com";
