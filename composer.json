@@ -46,7 +46,7 @@
 		"zordius/lightncandy": "0.23",
 		"pear/mail": "Mail sending support",
 		"pear/mail_mime": "Mail sending support",
-		"pear/mail_mime-decode": "Mail sending support",
+		"pear/mail_mime-decode": "Mail sending support"
 	},
 	"require-dev": {
 		"composer/spdx-licenses": "1.1.4",
