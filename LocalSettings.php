@@ -134,7 +134,6 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
-require_once 'Mail.php';
 
 $wgSMTP = array(
 'host' => getenv('EMAIL_HOST'), //could also be an IP address
