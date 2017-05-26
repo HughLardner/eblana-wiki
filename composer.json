@@ -43,7 +43,10 @@
 		"wikimedia/utfnormal": "1.1.0",
 		"wikimedia/wait-condition-loop": "1.0.1",
 		"wikimedia/wrappedstring": "2.2.0",
-		"zordius/lightncandy": "0.23"
+		"zordius/lightncandy": "0.23",
+		"pear/mail": "Mail sending support",
+		"pear/mail_mime": "Mail sending support",
+		"pear/mail_mime-decode": "Mail sending support",
 	},
 	"require-dev": {
 		"composer/spdx-licenses": "1.1.4",
@@ -64,9 +67,6 @@
 		"ext-wikidiff2": "Diff accelerator",
 		"monolog/monolog": "Flexible debug logging system",
 		"nmred/kafka-php": "Send debug log events to kafka",
-		"pear/mail": "Mail sending support",
-		"pear/mail_mime": "Mail sending support",
-		"pear/mail_mime-decode": "Mail sending support",
 		"wikimedia/avro": "Binary serialization format used with kafka"
 	},
 	"autoload": {
