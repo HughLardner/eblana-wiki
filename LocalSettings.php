@@ -158,11 +158,3 @@ require_once "$IP/extensions/SwiftMailer/SwiftMailer.php";
 
 # End of automatically generated settings.
 # Add more configuration options below.
-$wgSMTP = array(
-      'host'=> "smtp.sendgrid.net",
-      'IDHost'   => "eblana-wiki.ie",
-      'port'     => 465,
-      'auth'     => true,
-      'username' => getenv('SENDGRID_USERNAME'),
-      'password' => getenv('SENDGRID_PASSWORD')
-);
